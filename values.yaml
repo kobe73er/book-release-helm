@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: 114018177393.dkr.ecr.us-east-2.amazonaws.com/book-release-dev
+  repository: 114018177393.dkr.ecr.us-east-2.amazonaws.com/book-release-main
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""

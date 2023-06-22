@@ -59,7 +59,7 @@ ingress:
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: book-dev.johnnydorvilien.com
+    - host: your-identity-within-dev.johnnydorvilien.com
       paths:
         - backend:
             service:

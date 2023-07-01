@@ -71,10 +71,11 @@ ingress:
 
 
 
-  tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+  tls:
+    - secretName: johnnydorvilien-ssl-certificate-secret
+      namespace: frontend-prod
+      hosts:
+        - your-identity-within.johnnydorvilien.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

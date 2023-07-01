@@ -73,7 +73,6 @@ ingress:
 
   tls:
     - secretName: johnnydorvilien-ssl-certificate-secret
-      namespace: johnnydorvilien-com
       hosts:
         - your-identity-within-dev.johnnydorvilien.com
 

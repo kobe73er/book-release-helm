@@ -59,7 +59,7 @@ ingress:
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: your-identity-within.johnnydorvilien.com
+    - host: www.purocoach.com
       paths:
         - backend:
             service:
@@ -72,10 +72,10 @@ ingress:
 
 
   tls:
-    - secretName: johnnydorvilien-ssl-certificate-secret
+    - secretName: purocoach-ssl-certificate-secret
       namespace: frontend-prod
       hosts:
-        - your-identity-within.johnnydorvilien.com
+        - www.purocoach.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

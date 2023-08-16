@@ -5,3 +5,4 @@ helm upgrade --install book-release ./ --values ./values.yaml --recreate-pods --
 cicd-test-1
 cicd-test-1.1
 cicd-test-1.2
+cicd-test-1.3

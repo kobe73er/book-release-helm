@@ -10,3 +10,4 @@ cicd-test-2.0
 cicd-test-2.1
 cicd-test-2.2
 cicd-test-2.3
+cicd-test-2.4

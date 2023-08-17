@@ -7,3 +7,4 @@ cicd-test-1.1
 cicd-test-1.2
 cicd-test-1.3
 cicd-test-2.0
+cicd-test-2.1
